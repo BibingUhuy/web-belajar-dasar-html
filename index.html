@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panduan Belajar HTML</title>
+    <style>
+        /* Reset gaya dasar */
+        body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, img, a {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Gaya dasar */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #007acc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            background-color: #333;
+            list-style: none;
+            overflow: hidden;
+            text-align: center;
+            padding: 0;
+            margin: 0 0 20px 0;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+            padding: 15px 20px;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #007acc;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        section h2 {
+            color: #007acc;
+            border-bottom: 2px solid #007acc;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #007acc;
+            color: white;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Panduan Belajar HTML</h1>
+        <p>Berikut adalah beberapa elemen dasar HTML.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#heading">Heading</a></li>
+            <li><a href="#paragraph">Paragraph</a></li>
+            <li><a href="#image">Image</a></li>
+            <li><a href="#link">Link</a></li>
+            <li><a href="#list">List</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="heading">
+            <h2>Heading</h2>
+            <p>Heading digunakan untuk judul atau sub-judul. Ada 6 level heading, dari <code>&lt;h1&gt;</code> (paling besar) hingga <code>&lt;h6&gt;</code> (paling kecil).</p>
+            <h1>Ini adalah Heading 1</h1>
+            <h2>Ini adalah Heading 2</h2>
+            <h3>Ini adalah Heading 3</h3>
+            <h4>Ini adalah Heading 4</h4>
+            <h5>Ini adalah Heading 5</h5>
+            <h6>Ini adalah Heading 6</h6>
+        </section>
+        <section id="paragraph">
+            <h2>Paragraph</h2>
+            <p>Paragraph digunakan untuk menulis teks atau konten utama. Contoh penggunaan paragraph:</p>
+            <p>Ini adalah contoh dari paragraf pertama. HTML secara otomatis menambahkan spasi kosong di antara paragraf.</p>
+            <p>Ini adalah contoh dari paragraf kedua.</p>
+        </section>
+        <section id="image">
+            <h2>Image</h2>
+            <p>Image digunakan untuk menampilkan gambar. Contoh tag <code>&lt;img&gt;</code>:</p>
+            <img src="https://via.placeholder.com/150" alt="Contoh Gambar">
+        </section>
+        <section id="link">
+            <h2>Link</h2>
+            <p>Link digunakan untuk membuat tautan ke halaman lain atau ke bagian lain dari halaman. Contoh tag <code>&lt;a&gt;</code>:</p>
+            <p><a href="https://www.example.com">Ini adalah tautan ke Example.com</a></p>
+        </section>
+        <section id="list">
+            <h2>List</h2>
+            <p>List digunakan untuk membuat daftar item. Ada dua jenis list: ordered list (<code>&lt;ol&gt;</code>) dan unordered list (<code>&lt;ul&gt;</code>).</p>
+            <h3>Ordered List</h3>
+            <ol>
+                <li>Item pertama</li>
+                <li>Item kedua</li>
+                <li>Item ketiga</li>
+            </ol>
+            <h3>Unordered List</h3>
+            <ul>
+                <li>Item pertama</li>
+                <li>Item kedua</li>
+                <li>Item ketiga</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 by Bhyching Lucero. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
