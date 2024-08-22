@@ -26,7 +26,7 @@
 <br>
 <br>
 
-- `Atau kalian juga bisa belajar lewat web di bawah ini` <br>
+🌐 `Atau kalian juga bisa belajar lewat web di bawah ini` <br>
 ## [DEMO WEBSITE](https://ayo-belajar-dasar-html.netlify.app/)
 
 !!!Warning!!! <br>
